@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;	
+    margin: 0;	
+    padding: 0;	
+    font-family: 'Roboto', sans-serif;	
+}	
+
+	
+ul {	
+    list-style: none;	
+}	
+/* menu */	
+header {	
+    width: 100%;	
+    height: auto;	
+    background-color: #F5F5F6;	
+    padding: 10px 100px;	
+}	
+
+	
+.menu-container {	
+    display: flex;	
+    justify-content: space-between;	
+    align-items: center;	
+    margin: 0 auto;	
+}	
+
+.menu-logo {
+    height: 23px;
+}
+	
+.menu-block {	
+    display: flex;	
+    align-items: center;	
+    flex: 1;	
+    margin-left: 64px;	
+}	
+.menu-block-item {	
+    margin: 0px 10px;	
+    font-weight: 500;	
+    font-size: 11px;	
+    color: #959BA4;	
+}	
+
+	
+.menu-block-item:hover {	
+    color: black;	
+    cursor: pointer;	
+}	
+
+	
+.login-button {	
+    cursor: pointer;	
+    background-color:#FFFFFF;	
+    border-radius: 4px;	
+    font-weight: 500;	
+    font-size: 11px;	
+    padding: 9px;	
+    border: none;	
+}	
+
+	
+.login-button:hover {	
+    background-color: black;	
+    color: #FFFFFF;	
+}	
+
+/* Converter */	
+main {	
+    margin: 56px 253px;	
+}	
+
+	
+h1 {	
+    font-weight: bold;	
+    font-size: 36px;	
+}	
+
+	
+h6 {	
+    font-weight: normal;	
+    font-size: 12px;	
+    color: #9F9F9F;	
+}	
+
+	
+.converter {	
+    display: flex;	
+    justify-content: space-between;	
+    align-items: center;	
+    padding-top: 33px;	
+    width: 643px;	
+}	
+
+	
+.currency {	
+    display: flex;	
+    align-items: center;	
+    padding-top: 9px;	
+}	
+
+	
+.currency li {	
+    padding: 9px 20px;	
+    font-weight: normal;	
+    font-size: 12px;	
+    color: #C6C6C6;	
+    border: 1px solid #E5E5E5;	
+    border-radius: 3px;	
+    background-color: white;	
+}	
+
+	
+.currency li:hover {	
+    cursor: pointer;	
+}	
+
+	
+.currency li.chosen {	
+    color: #FFFFFF;	
+    background-color: #833AE0;	
+}	
+
+	
+.input-currency {	
+    margin-top: 20px;	
+    border: 1px solid #E5E5E5;	
+    border-radius: 3px;	
+    min-height: 102px;	
+    display: flex;	
+    flex-direction: column;	
+}	
+/* Currency Input */	
+input {	
+    border: none;	
+    max-width: 259px;	
+    padding: 11px 14px;	
+    font-weight: bold;	
+    font-size: 36px;	
+}	
+
+	
+span {	
+    font-size: 12px;	
+    color: #C6C6C6;	
+    padding: 9px 16px;	
+}	

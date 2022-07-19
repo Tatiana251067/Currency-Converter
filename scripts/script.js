@@ -76,5 +76,4 @@ function getCurrencyCourse(isCurrencyIHave = true) {
         }
 }
 
-
 getCurrencyCourse(true);
